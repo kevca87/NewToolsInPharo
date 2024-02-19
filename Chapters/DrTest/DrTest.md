@@ -2,15 +2,11 @@
 
 A series of tests is the basis of any project. In this chapter, we present DrTest, an extendable plugin-based UI for testing Pharo projects. DrTest offers a suite of functionalities designed to streamline the test process. Our goal is twofold: firstly, to help you make the effective use of DrTest and the associated plugins, and secondly, to equip you with the knowledge to create your own DrTest plugins, thus expanding its capabilities to meet your specific needs.
 
-For this purpouse we...
-- Overview of existing plugins in Pharo DrTest (with examples) and the importance and benefits of using plugins.
-- Reviewing the purpouse of key classes and methods of the common DrTest plugin creation process. And examples step by step of how to use it.
+To achieve these objectives, we will review the existing DrTest plugins. By giving clear examples of usage, we highlight the importance and tangible benefits of integrating these plugins into development workflows and show the functions they bring to test landscapes.
 
-To achieve these aims, we embark on a journey that begins with an overview of existing plugins within the Pharo DrTest framework. Through illuminating examples, we showcase the rich tapestry of functionalities that these plugins bring to the testing landscape, emphasizing the importance and tangible benefits of incorporating them into your development workflow.
+Furthermore, we will review the process of creating DrTest plugins and explain the purpose of the main classes and methods that are involved. With a step-by-step approach, we provide concrete examples, equipping you with the practical know-how to navigate the creation process seamlessly.
 
-Furthermore, we dissect the anatomy of DrTest plugin creation, unraveling the purpose of key classes and methods integral to the process. With a meticulous step-by-step approach, we provide concrete examples to elucidate each stage, equipping you with the practical know-how to navigate the creation process seamlessly.
-
-By the end of this chapter, you will not only possess a comprehensive understanding of DrTest and its plugins but also wield the proficiency to harness its full potential in your Pharo projects. Let us embark on this exploration of DrTest, where innovation meets pragmatism in the realm of software testing.
+By the end of this chapter, you will not only possess a comprehensive understanding of DrTest and its plugins but also manage the competences necessary to use all of its potential in your Pharo projects.
 
 ## How to use DrTest
 What is DrTest
