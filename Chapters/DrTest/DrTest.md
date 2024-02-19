@@ -1,4 +1,4 @@
-# Chapter X: DrTest Using and Creating Plugins
+# Chapter X: DrTest: Plugins to Enhance the Test Process
 
 A series of tests is the basis of any project. In this chapter, we present DrTest, an extendable plugin-based UI for testing Pharo projects. DrTest offers a suite of functionalities designed to streamline the test process. Our goal is twofold: firstly, to help you make the effective use of DrTest and the associated plugins, and secondly, to equip you with the knowledge to create your own DrTest plugins, thus expanding its capabilities to meet your specific needs.
 
