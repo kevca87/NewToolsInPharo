@@ -2,7 +2,7 @@
 
 A series of tests is the basis of any project. In this chapter, we present DrTest, an extendable plugin-based UI for testing Pharo projects. DrTest offers a suite of functionalities designed to streamline the test process. Our goal is twofold: firstly, to help you make the effective use of DrTest and the associated plugins, and secondly, to equip you with the knowledge to create your own DrTest plugins, thus expanding its capabilities to meet your specific needs.
 
-To achieve these objectives, we will review the existing DrTest plugins. By giving clear examples of usage, we highlight the importance and tangible benefits of integrating these plugins into development workflows and show the functions they bring to test landscapes.
+To achieve these objectives, we will review the existing DrTest plugins. By giving clear examples of usage, we highlight the importance and benefits of integrating these plugins into development workflows and show the functions they bring to test landscapes.
 
 Furthermore, we will review the process of creating DrTest plugins and explain the purpose of the main classes and methods that are involved. With a step-by-step approach, we provide concrete examples, equipping you with the practical know-how to navigate the creation process seamlessly.
 
