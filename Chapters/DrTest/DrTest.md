@@ -9,7 +9,11 @@ Furthermore, we will review the process of creating DrTest plugins and explain t
 By the end of this chapter, you will not only possess a comprehensive understanding of DrTest and its plugins but also manage the competences necessary to use all of its potential in your Pharo projects.
 
 ## How to use DrTest
-What is DrTest
+DrTest is a tool that focuses on the test analysis of pharo projects and provides a convenient user interface to obtain test feedback quickly.
+               
+DrTest consists of several plugins, each of which approaches testing from different perspectives. These plugins make it easy to identify areas for improvement, detect potential problems and optimize testing in your project. 
+
+Currently there are 6? plugins integrated in drTest:Tests Runner, Test Coverage, Tests Profiler, Rotten green tests finder, Executable comments checker, Mutation plugin? . 
 
 ### DrTest quickstart
 - Where you can find DrTest
@@ -33,7 +37,8 @@ For each plugin:
 
 
 ## Creating Custom DrTest Plugins
-- Understanding the plugin architecture in DrTest
+- Understanding the plugin architecture in DrTest.
+    An architecture to build tools around tests
 - Guide of the development
 - Creating a basic plugin from scratch
 - Implementing plugin functionality
