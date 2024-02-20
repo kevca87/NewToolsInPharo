@@ -16,7 +16,18 @@ DrTest consists of several plugins, each of which approaches testing from differ
 Currently there are 6? plugins integrated in drTest:Tests Runner, Test Coverage, Tests Profiler, Rotten green tests finder, Executable comments checker, Mutation plugin? . 
 
 ### DrTest quickstart
-- Where you can find DrTest
+In Pharo 12, you can access drTest in two ways:
+
+- First, click on the "Browse" option on the top side of Pharo IDE and select "Dr Test" from the resulting menu. 
+- or you can quickly access drTest using the keyboard shortcut Ctrl+O+U.  (maybe for mac is different )
+
+Once you access the drTest interface, you can navigate to the first drop-down component to explore and select various plugins according to your needs. 
+
+// doubt: should I add an image ?
+
+Also, you will encounter three principal panels. In the first two panels,according to every plugin, you can select packages, classes, or test classes, providing a granular level of control over the scope of your analysis. Once you've made your selections, the third panel will display the results after clicking the "Run Tests" button. 
+
+This intuitive design allows you to precisely target specific elements in your Pharo project, facilitating a focused analysis of tests.
 
 ### Using DrTest plugins
 Plugins (description)
@@ -28,6 +39,15 @@ For each plugin:
 
 #### Tests Runner
 #### Test Coverage
+The DrTest coverage plugin provides a report that
+shows which statements have been covered (or not) of the classes under analysis. 
+
+// doubt: will be okey to mention the type of selection in the panels?
+
+Upon entering the drTest interface, within the first two panels of the drTest interface, you have the option to select "Test Packages" and "Packages under coverage." This feature enables you to assess the coverage of your test packages within the specific packages you have chosen. 
+
+The following image shows an example of the coverage report that DrTest coverage plugin provides. ..... (copy of my proposal gsoc)
+
 #### Tests Profiler
 #### Rotten green tests finder
 #### Executable comments checker
@@ -64,3 +84,7 @@ Best Practices for Plugin Development (reference another book or chapter) (or ju
 ## Conclusion
 - Recap of key concepts covered in the chapter
 - Encouragement to explore and experiment with plugins in DrTest
+
+In summary, drTest is a valuable tool for Pharo developers looking to improve the quality of their testing. With its modular approach and intuitive user interface, it provides an effective solution to get quick feedback and continuously improve your testing practices.
+
+Explore drTest and take your testing to the next level in Pharo!
