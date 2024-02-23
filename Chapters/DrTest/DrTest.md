@@ -9,23 +9,21 @@ Furthermore, we will review the process of creating DrTest plugins and explain t
 By the end of this chapter, you will not only possess a comprehensive understanding of DrTest and its plugins but also manage the competences necessary to use all of its potential in your Pharo projects.
 
 ## How to use DrTest
-DrTest is a tool that focuses on the test analysis of pharo projects and provides a convenient user interface to obtain test feedback quickly.
-               
-DrTest consists of several plugins, each of which approaches testing from different perspectives. These plugins make it easy to identify areas for improvement, detect potential problems and optimize testing in your project. 
-
-Currently there are 6? plugins integrated in drTest:Tests Runner, Test Coverage, Tests Profiler, Rotten green tests finder, Executable comments checker, Mutation plugin? . 
+First of all, what is DrTest? DrTest is a testing analysis tool for Pharos projects that provides a simple user interface for quick test feedback. It consists of several plugins, each offering a different testing perspective. These plugins make it easy to identify improvements, detect potential problems, and optimize project testing. Currently there are six plugins integrated in DrTest: Tests Runner, Test Coverage, Tests Profiler, Rotten green tests finder, Executable comments checker and the Mutation. The following sections delves into the use of each plugin, exploring their functionalities and applications in detail.
 
 ### DrTest quickstart
 In Pharo 12, you can access drTest in two ways:
 
-- First, click on the "Browse" option on the top side of Pharo IDE and select "Dr Test" from the resulting menu. 
-- or you can quickly access drTest using the keyboard shortcut Ctrl+O+U.  (maybe for mac is different )
+To use DrTest you need to access to their respective window. You can find it in the menu bar "Browse/DrTest"
 
-Once you access the drTest interface, you can navigate to the first drop-down component to explore and select various plugins according to your needs. 
+- First, click on the "Browse" option on the top side of Pharo IDE and select "Dr Test" from the resulting menu. 
+- or you can quickly access drTest using the keyboard shortcut `Ctrl/Command`+`O`+`U`.  (maybe for mac is different ). 
 
 // doubt: should I add an image ?
+Once you access the drTest interface, you can navigate to the first drop-down component to explore and select various plugins according to your needs. 
 
-Also, you will encounter three principal panels. In the first two panels,according to every plugin, you can select packages, classes, or test classes, providing a granular level of control over the scope of your analysis. Once you've made your selections, the third panel will display the results after clicking the "Run Tests" button. 
+You will encounter... (previous paragraph)  three principal panels. In the first two panels,according to every plugin, you can select packages, classes, or test classes, providing a granular level of control over the scope of your analysis. Once you've made your selections, the third panel will display the results after clicking the "Run Tests" button. 
+
 
 This intuitive design allows you to precisely target specific elements in your Pharo project, facilitating a focused analysis of tests.
 
