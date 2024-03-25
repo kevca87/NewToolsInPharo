@@ -13,17 +13,15 @@ DrTest is a testing analysis tool for Pharos projects that provides a simple use
 ## DrTest by example
 Since DrTest is a testing tool to show a step by step example we need code to test. In this example we want to test all the code related to Roassal (the graphical engine of Pharo, note that it could be any other packages or classes) this code is distributed in several classes and packages (as shown Figure X-1), which is ideal to show all the potential of DrTest.
 ![[figure1_classtotestroassal.png]]
-### Step 1: Open DrTest
+### Quickstart
 To open DrTest you can select `Browse > DrTest` in the toolbar (as shown in Figure X-2) or just press `Ctrl`+`O`+`U` (`Command`+`O`+`U` for Mac users)
 ![[figure2_wheretofind.png]]
 
-Once you access the drTest interface, you can navigate to the first drop-down component to explore and select various plugins according to your needs. 
+The DrTest window will open and by default the Test runner pluggin will be selected in the top dropdown menu as it shows figure X, where you can change plugin to get differents results. 
 
-You will encounter... (previous paragraph)  three principal panels. In the first two panels,according to every plugin, you can select packages, classes, or test classes, providing a granular level of control over the scope of your analysis. Once you've made your selections, the third panel will display the results after clicking the "Run Tests" button. 
-
-
-This intuitive design allows you to precisely target specific elements in your Pharo project, facilitating a focused analysis of tests.
-
+But not matter what plugin you choose the DrTest window always shows three principal panels. In the first two panels, according to every plugin, you can select packages, classes, or test classes, providing a granular level of control over the scope of your analysis. Once you've made your selections, the third panel will display the results after clicking the "Run Tests" button at the bottom. 
+![[drtestopen.png]]
+This design allows you to precisely target specific elements in your Pharo project, facilitating a focused analysis of tests.
 ### Using DrTest plugins
 Plugins (description)
 
