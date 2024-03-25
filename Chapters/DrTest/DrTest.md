@@ -11,11 +11,12 @@ By the end of this chapter, you will not only possess a comprehensive understand
 ## What is DrTest?
 DrTest is a testing analysis tool for Pharos projects that provides a simple user interface for quick test feedback. It consists of several plugins, each offering a different testing perspective. These plugins make it easy to identify improvements, detect potential problems, and optimize project testing. Currently there are six plugins integrated in DrTest: Tests Runner, Test Coverage, Tests Profiler, Rotten green tests finder, Executable comments checker and the Mutation. The following sections delves into the use of each plugin, exploring their functionalities and applications in detail.
 ## DrTest by example
-Since DrTest is a testing tool to show a step by step example we need code to test. In this example we want to test all the code related to Roassal (the graphical engine of Pharo, note that it could be any other packages or classes) this code is distributed in several classes and packages (as shown Figure X-1), which is ideal to show all the potential of DrTest.
-![[figure1_classtotestroassal.png]]
+Since DrTest is a testing analysis tool, to show a step by step example we will need some code to test. In this case the code related to the Roassal [^1] project (already loaded with Pharo12). The code of this project is distributed in several classes and packages (as shown Figure X-1), which offers an ideal opportunity to showcase all the potential of DrTest. Note that it could be replicated with any other set of packages or classes.
+[^1]: the agile visualization engine for Pharo
+![[classtotestroassal.png]]
 ### Quickstart
 To open DrTest you can select `Browse > DrTest` in the toolbar (as shown in Figure X-2) or just press `Ctrl`+`O`+`U` (`Command`+`O`+`U` for Mac users)
-![[figure2_wheretofind.png]]
+![[wheretofind.png]]
 
 The DrTest window will open and by default the Test runner pluggin will be selected in the top dropdown menu as it shows figure X, where you can change plugin to get differents results. 
 
