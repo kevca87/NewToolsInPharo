@@ -13,7 +13,7 @@ DrTest is a testing analysis tool for Pharos projects that provides a simple use
 ## DrTest by example
 Since DrTest is a testing analysis tool, to show a step by step example we will need some code to test. In this case the code related to the Roassal [^1] project (already loaded with Pharo12). The code of this project is distributed in several classes and packages (as shown Figure X-1), which offers an ideal opportunity to showcase all the potential of DrTest. Note that it could be replicated with any other set of packages or classes.
 [^1]: the agile visualization engine for Pharo
-![[classtotestroassal.png]]
+![codetotest](figures/classtotestroassal.png)
 ### Quickstart
 To open DrTest you can select `Browse > DrTest` in the toolbar (as shown in Figure X-2) or just press `Ctrl`+`O`+`U` (`Command`+`O`+`U` for Mac users)
 ![[wheretofind.png]]
