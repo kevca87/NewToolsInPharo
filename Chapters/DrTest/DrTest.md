@@ -24,6 +24,7 @@ As it shown Figure X, the DrTest window will pop up and by default the Test runn
 
 DrTest window always shows three principal panels. In the first two panels, according to every plugin, you can select packages, classes, or test cases, providing a granular level of control over the scope of your analysis. Once you've made your selections, press the "Run Tests" button at the bottom and the third panel will display the results. 
 This design allows you to precisely target specific elements in your Pharo project, facilitating a focused analysis of tests.
+%is this last sentence needed?%
 ### Using DrTest plugins
 Plugins (description)
 
