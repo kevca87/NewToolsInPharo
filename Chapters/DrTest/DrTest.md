@@ -16,12 +16,12 @@ Since DrTest is a testing analysis tool, to show a step by step example we will 
 ![codetotest](figures/classtotestroassal.png)
 ### Quickstart
 To open DrTest you can select `Browse > DrTest` in the toolbar (as shown in Figure X-2) or just press `Ctrl`+`O`+`U` (`Command`+`O`+`U` for Mac users)
-![[wheretofind.png]]
+![wheretofind](figures/wheretofind.png)
 
 The DrTest window will open and by default the Test runner pluggin will be selected in the top dropdown menu as it shows figure X, where you can change plugin to get differents results. 
 
 But not matter what plugin you choose the DrTest window always shows three principal panels. In the first two panels, according to every plugin, you can select packages, classes, or test classes, providing a granular level of control over the scope of your analysis. Once you've made your selections, the third panel will display the results after clicking the "Run Tests" button at the bottom. 
-![[drtestopen.png]]
+![drtestopen](figures/drtestopen.png)
 This design allows you to precisely target specific elements in your Pharo project, facilitating a focused analysis of tests.
 ### Using DrTest plugins
 Plugins (description)
